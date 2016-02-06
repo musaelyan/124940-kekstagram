@@ -15,7 +15,7 @@ function getMessage(a,b) {
         };
     console.log("Количество красных точек во всех строчках изображения: " + sum);
   }
-  if (a && b instanceof Array === true) {
+  if (a instanceof Array === true && b instanceof Array === true) {
     var square = 0;
     for (var i = 0; i < a.length; i++) {
       square += a[i]*b[i];
